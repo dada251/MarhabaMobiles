@@ -10,9 +10,7 @@ import './navigation.styles.scss'
 
 const Nevigation = () => {
     const { currentUser } = useContext(UserContext);
-
-    // console.log(currentUser.email)
-
+    
     return (
         <>
             <div className='navigation'>
