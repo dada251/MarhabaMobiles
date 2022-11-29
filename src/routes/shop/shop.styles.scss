@@ -5,10 +5,10 @@
     flex-direction: column;
 
     .products-container {
-        width: 400px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        column-gap: 10px;
-        row-gap: 50px;
+        width: 30%;
+        min-width: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 }

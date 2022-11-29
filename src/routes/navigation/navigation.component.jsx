@@ -25,7 +25,7 @@ const Nevigation = () => {
                     }
                     { currentUser && currentUser.email === 'admin@gmail.com' &&
                         <Link className='nav-link' to='/addnewitem'>
-                            ADD NEW ITEM
+                            &#x002B;
                         </Link>
                     }
                     {
