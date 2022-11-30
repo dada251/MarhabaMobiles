@@ -18,13 +18,13 @@ const ProductCard = ({ product }) => {
                 <span className='price'>Down payment: Rs. {(price * 20 / 100).toFixed(0)}</span>
             </div>
             <div className='footer'>
-                <span className='price'>12 Month Plan: Rs. {((price - ((price * 20) / 100)) / 11).toFixed(0)}</span>
+                <span className='price'>12 Month Plan: Rs. {((price - ((price * 20) / 100)) / 11).toFixed(0)} /per month</span>
             </div>
             <div className='footer'>
-                <span className='price'>24 Month Plan: Rs. {((price - ((price * 20) / 100)) / 23).toFixed(0)}</span>
+                <span className='price'>24 Month Plan: Rs. {((price - ((price * 20) / 100)) / 23).toFixed(0)} /per month</span>
             </div>
             <div className='footer'>
-                <span className='price'>36 Month Plan: Rs. {((price - ((price * 20) / 100)) / 35).toFixed(0)}</span>
+                <span className='price'>36 Month Plan: Rs. {((price - ((price * 20) / 100)) / 35).toFixed(0)} /per month</span>
             </div>
             <div className='footer'>
                 <a
