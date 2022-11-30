@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import FormInput from "../form-input/form-input.component";
 import Button from "../button/button.component";
@@ -31,7 +32,7 @@ const SignInForm = () => {
         event.preventDefault();
 
         try {
-            const { user } = await signInAuthUserWithEmailAndPassword(
+            await signInAuthUserWithEmailAndPassword(
                 email,
                 password
             );
@@ -56,7 +57,7 @@ const SignInForm = () => {
     }
 
     return (
-        <div className='sign-up-container'>
+        <div className='sign-in-form-container'>
             <h2>Already have an account?</h2>
             <span>Sign in with your email and password</span>
             <form onSubmit={handleSubmit}>
@@ -83,6 +84,10 @@ const SignInForm = () => {
                     <Button type='submit'>Sign In</Button>
                     <Button type='button' buttonType='google' onClick={signInWithGoogle}>Google sign in</Button>
                 </div>
+
+                <span className="sign-up-link-container">
+                    Don't have an account? <Link to='sign-up'>Sign Up</Link>
+                </span>
             </form>
         </div>
     );

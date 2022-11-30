@@ -5,8 +5,8 @@
     flex-direction: column;
 
     .products-container {
-        width: 30%;
-        min-width: 250px;
+        width: 90%;
+        max-width: 300px;
         display: flex;
         flex-direction: column;
         gap: 20px;
