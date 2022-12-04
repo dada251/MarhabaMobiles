@@ -10,6 +10,9 @@
     width: 50px;
     padding: 25px;
   }
+  .name {
+  color:#0067FC;
+  }
 
   .nav-links-container {
     width: 80%;
@@ -21,6 +24,7 @@
     .nav-link {
       padding: 10px 10px;
       cursor: pointer;
+       color: white;
     }
   }
 }
