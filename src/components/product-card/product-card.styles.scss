@@ -7,6 +7,11 @@
   box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
   border-radius: 20px;
   padding-bottom: 10px;
+  background-color: white;
+  
+
+
+
 
   img {
     width: 100%;
@@ -14,13 +19,18 @@
     margin-bottom: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    background-color: white;
   }
 
   &:hover {
+ 
     img {
       opacity: 0.8;
+      overflow: hidden;
     }
   }
+  
+ 
 
   .footer {
     width: 100%;
@@ -29,6 +39,44 @@
     justify-content: space-between;
     font-size: 18px;
     padding: 0px 10px;
+    .installment-plan {
+      
+      color:  #0067FC;
+     
+    }
+
+    .down-payment{
+   
+      color: #f44336;
+      font-size: large;
+      font-weight: bolder;
+    
+    }
+   
+    .bg{
+      
+    color: #42C83C;
+    color: #f44336;
+    background-color: #070707;
+    border-radius: 3px;
+    color: white;
+    margin-right: 10px;
+    padding: 5px;
+    // border-radius: 5px;
+    font-weight: bold;
+        
+      
+      
+     }
+     .name {
+      font-weight: bolder;
+      font-size: larger;
+      color: #070707;
+    
+      color: #f44336;
+      color:  #0067FC;
+  
+     }
 
     div {
       display: flex;
@@ -38,7 +86,9 @@
       .whatsapp {
         width: 20px;
         height: 30px;
+        
       }
     }
   }
 }
+
