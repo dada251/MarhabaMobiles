@@ -17,6 +17,7 @@ const Nevigation = () => {
                 <Link className='logo-container' to='/'>
                     <Logo className='logo' />
                 </Link>
+               <h1>Marhaba Mobiles</h1>
                 <div className='nav-links-container'>
                     {
                         <Link className='nav-link' to='/'>
