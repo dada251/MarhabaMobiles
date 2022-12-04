@@ -15,6 +15,7 @@ const ProductCard = ({ product }) => {
                 <span className='price'>Price: Rs. {price}</span>
             </div>
             <div className='footer'>
+                <h2  className='name'>Easy Installment Plan</h2>
                 <span className='price'>Down payment: Rs. {(price * 20 / 100).toFixed(0)}</span>
             </div>
             <div className='footer'>
